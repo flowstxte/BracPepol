@@ -183,7 +183,7 @@ with open('data.csv', 'r') as file:
 
 # BracPepol.male_femaleRatio()
 # BracPepol.siblingFromAnotherMother(2000, 'Jun')
-BracPepol.availableBloodDonorByLocation('O+', 'Uttara', 20)
+# BracPepol.availableBloodDonorByLocation('O+', 'Uttara', 20)
 # BracPepol.availableBloodDonorByDept('B+', 'CSE', 100)
 # BracPepol.generateProbationStudentInfo()
 # BracPepol.findValedictorianCandidates()
