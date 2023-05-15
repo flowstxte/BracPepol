@@ -175,7 +175,7 @@ class BracPepol:
             for i in simUsers:
                 print(f"Name: {i.name}, Location: {i.location}, Phone: {i.phone}")
 
-with open('D:\\Notebooks\\PRACTICE\\Project\\data.csv', 'r') as file:
+with open('data.csv', 'r') as file:
     reader = csv.reader(file)
     next(reader)
     for i in reader:
