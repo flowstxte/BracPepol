@@ -1,7 +1,7 @@
-
 # BracPepol - BRAC University Student Management System
 
 ## Overview
+
 BracPepol is a **Python-based OOP project** that manages and analyzes BRAC University student data.  
 It reads from a CSV file and provides functionalities for **student information retrieval, academic analysis, blood donor search, and telecommunication insights**.
 
@@ -10,41 +10,44 @@ It reads from a CSV file and provides functionalities for **student information 
 ## Features
 
 ### Student Data Management
-- Reads & processes student data from a CSV file  
-- Generates unique IDs (based on year, department, serial)  
-- Stores personal details, academics, and contact info  
+
+- Reads & processes student data from a CSV file
+- Generates unique IDs (based on year, department, serial)
+- Stores personal details, academics, and contact info
 
 ### Statistical Analysis
-- Male-to-female ratio calculation  
-- Find students sharing the same birth year or month  
+
+- Male-to-female ratio calculation
+- Find students sharing the same birth year or month
 
 ### Blood Donation Management
-- Search donors by blood group + location  
-- Search donors by blood group + department  
+
+- Search donors by blood group + location
+- Search donors by blood group + department
 
 ### Academic Performance
-- Identify students on probation (CGPA < 2.00)  
-- Top 5 **Valedictorian candidates** (CGPA + ≥130 credits)  
-- **Gold Medalists** → top CGPA in each department (≥130 credits)  
-- **Female Coder Championship** → Female CSE students with CGPA > 3.5 and ≥30 credits  
+
+- Identify students on probation (CGPA < 2.00)
+- Top 5 **Valedictorian candidates** (CGPA + ≥130 credits)
+- **Gold Medalists** → top CGPA in each department (≥130 credits)
+- **Female Coder Championship** → Female CSE students with CGPA > 3.5 and ≥30 credits
 
 ### Telecommunication Analysis
-- Identify SIM card users by operator from phone numbers  
+
+- Identify SIM card users by operator from phone numbers
 
 ---
 
 ## Tech Stack
-<p>
-  <img src="https://skillicons.dev/icons?i=python" />
-</p>
 
-- **Language**: Python 3.6+  
-- **Data Source**: CSV file  
-- **Libraries**: Python standard `csv` module  
+- **Language**: Python 3.6+
+- **Data Source**: CSV file
+- **Libraries**: Python standard `csv` module
 
 ---
 
 ## Usage Examples
+
 ```python
 # Gender ratio
 BracPepol.male_femaleRatio()
@@ -72,7 +75,7 @@ BracPepol.findFemaleCoderChampionshipCandidates()
 
 # Students using TeleTalk SIM
 BracPepol.findSIM_users('TeleTalk')
-````
+```
 
 ---
 
@@ -105,19 +108,15 @@ python main.py
 
 The CSV file should include:
 
-* Name
-* Gender
-* Location
-* Birthdate
-* Blood Group
-* Phone
-* Department
-* Enrolled Year
-* Completed Credits
-* Current CGPA
+- Name
+- Gender
+- Location
+- Birthdate
+- Blood Group
+- Phone
+- Department
+- Enrolled Year
+- Completed Credits
+- Current CGPA
 
 ---
-
-## License
-
-Licensed under the **MIT License** – see [LICENSE](LICENSE).
