@@ -84,8 +84,8 @@ BracPepol.findSIM_users('TeleTalk')
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/flowstxte/Project-BracPepol.git
-cd Project-BracPepol
+git clone https://github.com/flowstxte/BracPepol.git
+cd BracPepol
 ```
 
 ### 2. Prepare the data file
